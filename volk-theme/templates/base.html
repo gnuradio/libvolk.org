@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ SITENAME }}</title>
+    <link href="theme/css/bootstrap.min.css" rel="stylesheet">
+    <link href="theme/css/material.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header-panel shadow-z-2" style="background-color:#18FFFF; height:10px;">
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-sm-3 menu">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4>Information</h4>
+            </div>
+            <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="platforms.html">Supported Platforms</a></li>
+                <li><a href="comparisons.html">Related Libraries</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4>Source Code</h4>
+            </div>
+            <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="current_release.html">Current Releases</a></li>
+                <li><a href="releases.html">Release Archive</a></li>
+                <li><a href="https://github.com/gnuradio/volk">Code Repository</a></li>
+                <li><a href="doxygen/index.html">Documentation</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4>Community</h4>
+            </div>
+            <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="lists.html">Mailing List and IRC</a></li>
+                <li><a href="bugs.html">Bug Reports</a></li>
+                <li><a href="requests.html">Feature Requests</a></li>
+            </ul>
+            </div>
+        </div>
+
+        </nav>
+
+        <div id="content" class="col-sm-9">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+<footer class="footer text-center">
+Copyright &copy; 2015 <a href="https://www.fsf.org/about/contact.html">Free Software Foundation</a>, Inc.
+</footer>
+</div>
+
+<!-- jQuery -->
+<script src="theme/js/jquery.min.js"></script>
+
+<!-- Bootstrap js -->
+<script src="theme/js/bootstrap.min.js"></script>
+
+<!-- Material and ripple js -->
+<script src="theme/js/material.min.js"></script>
+<script>
+            $(document).ready(function() {
+                $.material.init();
+            });
+</script>
+
+</body>
+</html>
