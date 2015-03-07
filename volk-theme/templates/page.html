@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block breadcrumb %}
+{{ page.title }}
+{% endblock %}
+
+{% block content %}
+<div class="pages col-sm-12">
+  <div class="well page active">
+    {{ page.content }}
+  </div>
+</div>
+
+{% endblock %}

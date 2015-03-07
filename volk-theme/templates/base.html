@@ -10,13 +10,19 @@
 </head>
 <body>
 <div class="header-panel shadow-z-2 row" style="background-color:#18FFFF;">
-    <div class="col-sm-1">
+    <div class="row-fluid">
+    <div class="col-xs-3" style="display: inline-block; vertical-align: middle; float: none;">
+        <img src="theme/assets/volk_wolves_only.png" class="center-block" height="48pt">
+    </div><!--
+    --><div class="col-xs-9" style="display: inline-block; vertical-align: middle; float: none;">
+    <div class="text-center" style="height: 48; vertical-align: bottom;">
+        <a href="{{ SITEURL }}">
+            Vector-Optimized Library of Kernels
+        </a> / 
+            {% block breadcrumb %}
+            {% endblock %}
     </div>
-    <div class="col-sm-11">
-    <a href="{{ SITEURL }}">
-    <img src="theme/assets/volk_wolves_only.png" height="48pt">
-        Vector-Optimized Library of Kernels
-    </a> / {{ page_name }}
+    </div>
     </div>
 </div>
 <div class="container-fluid">
