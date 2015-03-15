@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block breadcrumb %}
+{{ category }}
+{% endblock %}
+
+{% block content %}
+<div class="pages col-sm-12">
+  <div class="row text-center">
+    <h2>VOLK News</h2>
+  </div>
+  {% for article in articles %}
+    <div class="row">
+    <div class="well page active">
+      <h3>{{ article.title }}</h3>
+      <b>{{ article.date.strftime("%d %b %Y") }}</b> by 
+      {{ article.author }}
+      {{ article.content }}
+    </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

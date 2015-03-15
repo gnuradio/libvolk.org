@@ -3,17 +3,18 @@
 <head>
     <meta charset="utf-8">
     <title>{{ SITENAME }}</title>
-    <link href="theme/css/bootstrap.min.css" rel="stylesheet">
-    <link href="theme/css/material.css" rel="stylesheet">
-    <link href="theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/material.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/assets/volk.png" />
 </head>
 <body>
 <div class="header-panel shadow-z-2 row" style="background-color:#e0f7fa;">
     <div class="row-fluid">
     <div class="col-xs-3" style="display: inline-block; vertical-align: middle; float: none;">
         <a href="{{ SITEURL }}">
-        <img src="theme/assets/volk_wolves_only.png" class="center-block" height="48pt">
+        <img src="{{ SITEURL }}/theme/assets/volk_wolves_only.png" class="center-block" height="48pt">
         </a>
     </div><!--
     --><div class="col-xs-9" style="display: inline-block; vertical-align: middle; float: none;">
@@ -36,10 +37,10 @@
             </div>
             <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-                <li><a href="about.html">About</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="platforms.html">Supported Platforms</a></li>
-                <li><a href="comparisons.html">Related Libraries</a></li>
+                <li><a href="{{ SITEURL }}/about.html">About</a></li>
+                <li><a href="{{ SITEURL }}/category/news.html">News</a></li>
+                <li><a href="{{ SITEURL }}/platforms.html">Supported Platforms</a></li>
+                <li><a href="{{ SITEURL }}/comparisons.html">Related Libraries</a></li>
             </ul>
             </div>
         </div>
