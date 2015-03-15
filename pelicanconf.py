@@ -24,6 +24,9 @@ AUTHOR_FEED_RSS = None
 #TEMPLATE_PAGES = {'news.html': 'news.html'}
 DIRECT_TEMPLATES = ['index']
 
+PLUGIN_PATHS = ['plugins/pelican-bootstrapify']
+PLUGINS = ['bootstrapify']
+
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
 #         ('Python.org', 'http://python.org/'),
