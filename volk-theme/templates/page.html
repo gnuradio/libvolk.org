@@ -16,7 +16,7 @@
     {% if loop.index0 <= 2 %}
       <div class="row">  
         {{ article.date|strftime("%d %b %Y") }}: <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-        {{ article.content|truncate(255) }}
+        {{ article.content|striptags|truncate(255) }}
       </div>
     {% endif %}
     {% endfor %}

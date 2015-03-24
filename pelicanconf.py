@@ -26,6 +26,8 @@ AUTHOR_FEED_RSS = None
 #TEMPLATE_PAGES = {'news.html': 'news.html'}
 DIRECT_TEMPLATES = ['index']
 
+CACHE_CONTENT = False
+
 PLUGIN_PATHS = ['plugins/pelican-bootstrapify']
 PLUGINS = ['bootstrapify', sitemap]
 
