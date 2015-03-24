@@ -8,6 +8,20 @@
   <div class="well page active">
     {{ page.content }}
   </div>
-</div>
 
+  {% if page.title == "home" %}
+    <div class="well page">
+    <h3 class="text-center">Recent News</h3>
+    {% for article in articles|sort(attribute='date', reverse=True) %}
+    {% if loop.index0 <= 2 %}
+      <div class="row">  
+        {{ article.date|strftime("%d %b %Y") }}: <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+        {{ article.content|truncate(255) }}
+      </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+  {% endif %}
+
+</div>
 {% endblock %}
