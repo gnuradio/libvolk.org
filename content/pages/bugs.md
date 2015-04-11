@@ -3,4 +3,4 @@ save_as: bugs.html
 
 # Reporting Bugs
 
-Use redmine. TODO: link to redmine
+Report bugs using the github [issue tracker](https://github.com/gnuradio/volk/issues).

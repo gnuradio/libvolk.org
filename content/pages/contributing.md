@@ -14,8 +14,7 @@ the rationale. To start the process contact Tom Rondeau or Nathan West.
 ## Git workflow
 
 The official git code is tracked on two branches with git. The `maint` branch
-is where ABI-compatible changes go. The `master` branch is where everything
-else goes.
+is where bug fixes belong. The `master` branch is where everything else goes.
 
 Checkout the branch appropriate for your change and start a new branch with a
 short name describing your feature. The branch name should be meaningful in the

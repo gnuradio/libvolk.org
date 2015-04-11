@@ -18,5 +18,6 @@ portable SIMD code that is optimized for a variety of platforms.
 
 # History
 
-VOLK was introduced as a part of GNU Radio in late 2010. In 2015 it was released
-as an independent library to be useful to a wider audience.
+VOLK was introduced as a part of GNU Radio in late 2010 based on code released
+in the public domain. In 2015 it was released as an independent library for use
+by a wider audience.
