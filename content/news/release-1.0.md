@@ -1,6 +1,6 @@
 title: Initial Release
 author: Nathan West
-date: 03-30-2015
+date: 04-11-2015
 
 VOLK 1.0 is available. This is the first release of VOLK as an independently
 tracked sub-project of GNU Radio.
@@ -10,7 +10,9 @@ tracked sub-project of GNU Radio.
 VOLK has been tracked separetly from GNU Radio since 2014 Dec 23. Contributors
 between the split and the initial release are
 
+ * Albert Holguin <aholguin_77@yahoo.com>
  * Doug Geiger <doug.geiger@bioradiation.net>
+ * Elliot Briggs <elliot.briggs@gmail.com>
  * Julien Olivain <julien.olivain@lsv.ens-cachan.fr>
  * Michael Dickens <michael.dickens@ettus.com>
  * Nathan West <nathan.west@okstate.edu>
@@ -30,6 +32,10 @@ The QA system creates a static list of kernels and test cases. The QA testing
 and profiler iterate over this static list rather than each source file keeping
 its own list. The QA also emits XML results to lib/.unittest/kernels.xml which
 is formatted similarly to JUnit results.
+
+### Modtool
+
+Modtool was updated to support the QA and profiler changes.
 
 ### Kernels
 
@@ -52,4 +58,7 @@ Several build system and cmake changes have made it possible to build VOLK both
 independently with proper soname versions and in-tree for projects such as GNU
 Radio.
 
-Finally, there are a number of changes to satisfy compiler warnings.
+The static builds take advantage of cmake object libraries to speed up builds.
+
+Finally, there are a number of changes to satisfy compiler warnings and make QA
+work on multiple machines.
