@@ -7,7 +7,7 @@ tracked sub-project of GNU Radio.
 
 ## Contributors
 
-VOLK has been tracked separetly from GNU Radio since 2014 Dec 23. Contributors
+VOLK has been tracked separately from GNU Radio since 2014 Dec 23. Contributors
 between the split and the initial release are
 
  * Albert Holguin <aholguin_77@yahoo.com>
