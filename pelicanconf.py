@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from pelicanplugins import sitemap
 
 AUTHOR = u'Nathan West'
-SITENAME = u'Vector Optimize Library of Kernels'
+SITENAME = u'Vector Optimized Library of Kernels'
 SITEURL = 'http://libvolk.org'
 SITEMAP = {'format': 'xml'}
 
