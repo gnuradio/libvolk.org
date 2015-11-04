@@ -51,23 +51,3 @@ Miscellaneous
 
  * All builds now use '-Wall'
  * Removed stray references to PCC and Altivec
-
-commit 52f219294c2424b541739b28dd7296196067dba9
-Author: Nathan West <nathan.west@okstate.edu>
-Date:   Mon Aug 24 12:54:11 2015 -0400
-
-    Update CMake for release v1.1
-
-diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 44cbd52..77b96ef 100644
---- a/CMakeLists.txt
-+++ b/CMakeLists.txt
-@@ -44,7 +44,7 @@ message(STATUS "Build type set to ${CMAKE_BUILD_TYPE}.")
-
- set(VERSION_INFO_MAJOR_VERSION 1)
- set(VERSION_INFO_MINOR_VERSION 1)
--set(VERSION_INFO_MAINT_VERSION git)
-+set(VERSION_INFO_MAINT_VERSION 0)
- include(VolkVersion) #setup version info
-
-
