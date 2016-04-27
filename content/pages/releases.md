@@ -3,6 +3,7 @@ save_as: releases.html
 
 | Date | Version | archive (md5sum)
 |-----_|---------|----------------
+| [2016 April 7](http://libvolk.org/release-v122.html) | v1.2.2 | [volk-1.2.2.tar.gz](http://libvolk.org/releases/volk-1.2.2.tar.gz) \(540e2c55e525c04920e0e63d0de530b3\)
 | [2016 February 7](http://libvolk.org/release-v121.html) | v1.2.1 | [volk-1.2.1.tar.gz](http://libvolk.org/releases/volk-1.2.1.tar.gz) \(4cede0c899aed78258b473bd27f4542e\)
 | [2015 December 23](http://libvolk.org/release-v12.html) | v1.2 | [volk-1.2.tar.gz](http://libvolk.org/releases/volk-1.2.tar.gz) \(c01928e1d5dfd520f328d3052e96d813\)
 | [2015 October 31](http://libvolk.org/release-v111.html) | v1.1.1 | [volk-1.1.1.tar.gz](http://libvolk.org/releases/volk-1.1.1.tar.gz) \(6cb181580aed067f23beff2373d008ed\)
