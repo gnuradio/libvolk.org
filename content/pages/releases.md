@@ -1,8 +1,10 @@
 title: releases
 save_as: releases.html
 
-| Date | Version | archive (md5sum)
-|-----_|---------|----------------
+| Date | Version | archive (md5sum) | detatched signature
+|-----_|---------|------------------|---------------------
+| [2016 July 2](http://libvolk.org/release-v13.html) | v1.3 | [volk-1.3.tar.gz](http://libvolk.org/releases/volk-1.3.tar.gz) \(d04edc0779431c8660a8a592792a3680\) | [volk-1.3.tar.gz.asc](http://libvolk.org/releases/volk-1.3.tar.gz.asc)
+| [2016 July 2](http://libvolk.org/release-v123.html) | v1.2.3 | [volk-1.2.3.tar.gz](http://libvolk.org/releases/volk-1.2.2.tar.gz) \(ab546549409d6525df3eba89f536be35\) | [volk-1.2.3.tar.gz.asc](http://libvolk.org/releases/volk-1.2.2.tar.gz.asc)
 | [2016 April 7](http://libvolk.org/release-v122.html) | v1.2.2 | [volk-1.2.2.tar.gz](http://libvolk.org/releases/volk-1.2.2.tar.gz) \(540e2c55e525c04920e0e63d0de530b3\)
 | [2016 February 7](http://libvolk.org/release-v121.html) | v1.2.1 | [volk-1.2.1.tar.gz](http://libvolk.org/releases/volk-1.2.1.tar.gz) \(4cede0c899aed78258b473bd27f4542e\)
 | [2015 December 23](http://libvolk.org/release-v12.html) | v1.2 | [volk-1.2.tar.gz](http://libvolk.org/releases/volk-1.2.tar.gz) \(c01928e1d5dfd520f328d3052e96d813\)
