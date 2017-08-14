@@ -5,9 +5,9 @@ save_as: contributing.html
 
 VOLK is a sub-project of GNU Radio. As such copyright is owned by the Free
 Software Foundation. Before VOLK accepts significant (>10 lines) changes from
-an individual we need a copyright assignment. See (Why the FSF gets copyright
-assignment from contributors)[https://www.gnu.org/licenses/why-assign.html] for
-the rationale. To start the process contact Tom Rondeau or Nathan West.
+an individual we need a copyright assignment. See [Why the FSF gets copyright
+assignment from contributors](https://www.gnu.org/licenses/why-assign.html) for
+the rationale. To start the process contact Ben Hilburn or Nathan West.
 
 # Working on VOLK
 
