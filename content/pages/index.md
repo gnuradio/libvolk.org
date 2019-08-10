@@ -26,7 +26,7 @@ save_as: index.html
     <a href="doxygen/" class="btn btn-primary btn-large">
         <i class="fa fa-book"></i> Documentation
     </a>
-    <a href="javascript:void(0)" class="btn btn-primary btn-large">
+    <a href="https://github.com/gnuradio/volk/issues" class="btn btn-primary btn-large">
         <i class="fa fa-bug"></i> Issues
     </a>
 </div>
