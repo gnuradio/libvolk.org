@@ -1,8 +1,7 @@
 title: Release v1.4
 author: Nathan West
 date: 03-26-2018
-
-# VOLK v1.4
+summary: A lot of really good changes came to VOLK with v1.4
 
 A lot of really good changes came to VOLK with v1.4. It wouldn't have been possible without the following contributors:
 
@@ -111,4 +110,3 @@ Some build changes make it easier to do a relocatable build and order all files 
 
     modtool: update the cmake find module for volk mods
     modtool: deconflict module include guards from main volk
- 

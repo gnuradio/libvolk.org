@@ -28,7 +28,7 @@ DIRECT_TEMPLATES = ['index']
 CACHE_CONTENT = False
 
 PLUGIN_PATHS = ['plugins/pelican-bootstrapify', '/plugins/pelican-plugins']
-PLUGINS = ['bootstrapify', 'sitemap']
+PLUGINS = ['bootstrapify', 'sitemap', 'summary']
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),

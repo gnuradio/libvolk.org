@@ -14,9 +14,12 @@
     <h3 class="text-center">Recent News</h3>
     {% for article in articles|sort(attribute='date', reverse=True) %}
     {% if loop.index0 <= 2 %}
-      <div class="row">  
-        {{ article.date|strftime("%d %b %Y") }}: <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-        {{ article.content|striptags|truncate(255) }}
+    <div class="card mb-3">
+        <div class="card-body">
+        <h4 class="card-title">
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h4>{% if article.has_summary %}<p class="card-text">{{ article.summary | striptags }}</p>{% endif %}
+        <p class="card-text"> <small class="text-muted"> {{ article.date|strftime("%d %b %Y") }}</small></p>
+        </div>
       </div>
     {% endif %}
     {% endfor %}
