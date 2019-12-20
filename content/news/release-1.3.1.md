@@ -1,6 +1,7 @@
 title: Release v1.3.1
 author: Nathan West
 date: 03-25-2018
+summary: This is an API-compatible support release that only includes bug fixes
 
 Contributors
 ===========
@@ -65,4 +66,3 @@ Add a AppVeyor compatible YAML file for building on the AppVeyor CI
 ###Modtool
 
 Update the cmake find module for volk mods and deconflict module include guards from main volk.
-

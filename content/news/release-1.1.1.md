@@ -1,6 +1,7 @@
 title: Release v1.1.1
 author: Nathan West <nathan.west@okstate.edu>
 date:   Sat Oct 31 12:17:18 2015 -0400
+summary: This is the first maintenance release with only bug fixes since v1.1
 
 Release v1.1.1
 

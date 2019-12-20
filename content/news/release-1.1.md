@@ -1,6 +1,7 @@
 title: Release v1.1
 author: Nathan West
 date: 08-24-2015
+summary: This release contains all of the bug fixes from v1.0.1 as well as new features
 
 Release v1.1
 

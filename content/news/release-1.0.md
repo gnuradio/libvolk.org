@@ -1,6 +1,7 @@
 title: Initial Release
 author: Nathan West
 date: 04-11-2015
+summary: VOLK 1.0 is available. This is the first release of VOLK as an independently tracked sub-project of GNU Radio
 
 VOLK 1.0 is available. This is the first release of VOLK as an independently
 tracked sub-project of GNU Radio.

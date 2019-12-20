@@ -1,6 +1,7 @@
 title: Release v1.3
 author: Nathan West
 date: 07-2-2016
+summary: Several new kernels are available. These include several type conversions, some fixed point complex operations, and a complex float divide
 
 Release v1.3
 
@@ -30,4 +31,3 @@ malloc implementation used in volk_profile.
 Builds define the Dual ABI macro `_GLIBCXX_USE_CXX11_ABI` to 1, which should
 allow builds with GCC 4 when linking against C++ libraries that are built with
 GCC 5.
-

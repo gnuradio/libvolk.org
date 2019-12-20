@@ -1,6 +1,7 @@
 title: Release v1.2.3
 author: Nathan West
 date: 07-2-2016
+summary: Naming confusion for input-output signatures for several kernels is fixed with this release
 
 Release v1.2.3
 

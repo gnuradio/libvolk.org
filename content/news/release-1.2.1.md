@@ -1,6 +1,7 @@
 title: Release v1.2.1
 author: Nathan West
 date: 02-7-2016
+summary: This is a support release which includes only bugfixes
 
 Release v1.2.1
 

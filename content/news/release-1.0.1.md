@@ -1,6 +1,7 @@
 title: Maintenance Release v1.0.1
 author: Nathan West
 date: 2015-07-08
+summary: This is a maintenance release with bug fixes since the initial release of v1.0 in April
 
 This is a maintenance release with bug fixes since the initial release of v1.0
 in April.

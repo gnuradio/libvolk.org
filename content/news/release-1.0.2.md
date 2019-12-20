@@ -1,6 +1,7 @@
 title: Maintenance Release v1.0.2
 author: Nathan West
 date: 2015-07-24
+summary: This is a relatively minor maintenance release with bug fixes since v1.0.1
 
 Release v1.0.2
 
@@ -27,4 +28,3 @@ implied header.
 
 Finally, there is a fix to return the "best" protokernel to the dispatcher when
 no volk_config exists. Thanks to Alexandre Raymond for pointing this out.
-

@@ -1,6 +1,7 @@
 title: Release v1.2
 author: Nathan West
 date: 12-23-2015
+summary: New kernels for doing polar codes are available with generic, SSE3, and AVX implementations
 
 
 Release v1.2
@@ -33,4 +34,3 @@ smaller vector lengths.
 Some kernels now use inacc tolerances for QA. The kernels themselves are exactly
 the same funcationality as before, but with the existing QA tolerance would fail
 on NEON due to sqrt and inverse approximations in NEON.
-
