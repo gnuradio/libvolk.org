@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-from pelicanplugins import sitemap
 
 AUTHOR = u'Nathan West'
 SITENAME = u'Vector Optimized Library of Kernels'
@@ -28,8 +27,8 @@ DIRECT_TEMPLATES = ['index']
 
 CACHE_CONTENT = False
 
-PLUGIN_PATHS = ['plugins/pelican-bootstrapify']
-PLUGINS = ['bootstrapify', sitemap]
+PLUGIN_PATHS = ['plugins/pelican-bootstrapify', '/plugins/pelican-plugins']
+PLUGINS = ['bootstrapify', 'sitemap']
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -45,4 +44,3 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-
