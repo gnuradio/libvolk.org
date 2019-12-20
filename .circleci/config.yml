@@ -1,0 +1,22 @@
+version: 2.0
+jobs:
+  build:
+    branches:
+      only:
+        - master
+    docker:
+      - image: gnuradio/pelican:latest
+    steps:
+      - run: 'eval $(ssh-agent -s)'
+      - add_ssh_keys:
+          fingerprints:
+            - "4c:3f:96:5d:63:cd:34:dd:7e:67:26:52:f9:80:a0:73"
+      - run: 'mkdir -p ~/.ssh'
+      - run: 'chmod 700 ~/.ssh'
+      - run: 'echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts'
+      - run: 'chmod 644 ~/.ssh/known_hosts'
+      - checkout
+      - run: 'pelican --version'
+      - run: 'pelican --relative-urls content/ -o public/ -s pelicanconf.py'
+      - run: 'echo $(date +%Y.%m.%d)'
+      - run: 'tar -cz public | ssh $SSH_USER@$SSH_HOST "mkdir -p /data/static/www.libvolk.org/$(date +%Y.%m.%d); cd /data/static/www.libvolk.org/$(date +%Y.%m.%d); tar --strip-components=1 -xz; rm -I /data/static/www.libvolk.org/live; cd /data/static/www.libvolk.org; ln -sf $(date +%Y.%m.%d) live;"
