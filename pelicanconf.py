@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Nathan West'
+AUTHOR = u'GNU Radio Project'
 SITENAME = u'Vector Optimized Library of Kernels'
-SITEURL = 'http://libvolk.org'
+SITEURL = 'https://www.libvolk.org'
 SITEMAP = {'format': 'xml'}
 
 PATH = 'content'
 
-TIMEZONE = 'US/Central'
+TIMEZONE = 'UTC'
 
 DEFAULT_LANG = u'en'
 
