@@ -3,6 +3,8 @@ save_as: releases.html
 
 | Date | Version | archive (md5sum) | detatched signature
 |------|---------|------------------|---------------------
+| 2019 December 19                        | v2.1.0 | [volk-v2.1.0.tar.gz](../releases/volk-v2.1.0.tar.gz)      |
+| 2019 August 6 | v2.0.0 | [volk-v2.0.0.tar.gz](../releases/volk-v2.0.0.tar.gz) \(f40b09feb2e88bd0a50aecc4301e7246\) | [volk-v2.0.0.tar.gz.asc](../releases/volk-v2.0.0.tar.gz.asc)
 | [2018 March 26](../release-v14.html) | v1.4 | [volk-1.4.tar.gz](../releases/volk-1.4.tar.gz) \(02d3a0f4b19c4cc34ecea19fc37c7fd4\) | [volk-1.4.tar.gz.asc](../releases/volk-1.3.tar.gz.asc)
 | [2018 March 25](../release-v131.html) | v1.3.1 | [volk-1.3.1.tar.gz](../releases/volk-1.3.1.tar.gz) \(811f521ae2d74e26e5f1326f2bedac89\) | [volk-1.3.1.tar.gz.asc](../releases/volk-1.3.tar.gz.asc)
 | [2016 July 2](../release-v13.html) | v1.3 | [volk-1.3.tar.gz](../releases/volk-1.3.tar.gz) \(d04edc0779431c8660a8a592792a3680\) | [volk-1.3.tar.gz.asc](../releases/volk-1.3.tar.gz.asc)
