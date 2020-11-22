@@ -3,6 +3,7 @@ save_as: releases.html
 
 | Date                                             | Version | archive (md5sum)                                                                          | detached signature                                          |
 |--------------------------------------------------|---------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [2020 November 22](../release-v240.html)         | v2.4.0  | [volk-2.4.0.tar.gz](../releases/volk-2.4.0.tar.gz) \(c5a24e7807f3f6bff5dded6e0d2afe49\)   | [2.4.0.sha256.sig](../releases/2.4.0.sha256.sig)
 | [2020 May 9](../release-v230.html)               | v2.3.0  | [volk-2.3.0.tar.gz](../releases/volk-2.3.0.tar.gz) \(0d64902c9e8851fffd809fea1402894e\)   | [2.3.0.sha256.sig](../releases/2.3.0.sha256.sig)       
 | [2020 February 24](../release-v221.html)         | v2.2.1  | [volk-2.2.1.tar.gz](../releases/volk-2.2.1.tar.gz) \(04a602e00300959461c644699a4937df\)   | [2.2.1.sha256.sig](../releases/2.2.1.sha256.sig)       
 | [2020 February 16](../release-v220.html)         | v2.2.0  | [volk-2.2.0.tar.gz](../releases/volk-2.2.0.tar.gz) \(f2919bdaad24ed076d658f5bbdd05525\)   | [2.2.0.sha256.sig](../releases/2.2.0.sha256.sig)             |
