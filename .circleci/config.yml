@@ -10,7 +10,7 @@ jobs:
       - run: 'eval $(ssh-agent -s)'
       - add_ssh_keys:
           fingerprints:
-            - "4c:3f:96:5d:63:cd:34:dd:7e:67:26:52:f9:80:a0:73"
+            - "f1:bd:c1:e8:89:71:77:b8:4c:48:0d:9c:f9:9e:85:2f"
       - run: 'mkdir -p ~/.ssh'
       - run: 'chmod 700 ~/.ssh'
       - run: 'echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts'
