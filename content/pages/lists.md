@@ -1,11 +1,12 @@
 title: lists
 save_as: lists.html
 
-# IRC
+# Matrix
 
-The \#volk channel on the [Freenode](http://www.freenode.net/) IRC network is
-dedicated to VOLK discussion.  For information on joining the network and using
-IRC see the [Using the Freenode Network](http://www.freenode.net/using_the_network.shtml)
+VOLK is part of the GNU Radio ecosystem. Therefore, we use Matrix as our primary chat system nowadays.
+Find us on [chat.gnuradio.org](https://chat.gnuradio.org/). Of course, most discussions will be on #gnuradio:gnuradio.org.
+Though, we have our own room #volk:gnuradio.org as well.
+
 
 # Mailing List
 
