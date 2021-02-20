@@ -3,7 +3,7 @@ save_as: platforms.html
 
 # Kernels per platform
 
-Here we present a snapshot of currently available VOLK kernels and their implementations in [VOLK version 2.4.1](release-v421.html).
+Here we present a snapshot of currently available VOLK kernels and their implementations in [VOLK version 2.4.1](release-v241.html).
 An [overview for VOLK version 1.0.0](platforms100.html) is also available.
 Most, if not all kernels in the SSE/AVX/AVX512 columns offer aligned and unaligned versions.
 
