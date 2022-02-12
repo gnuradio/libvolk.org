@@ -3,6 +3,7 @@ save_as: releases.html
 
 | Date                                             | Version | archive (md5sum)                                                                          | detached signatures                                          |
 |--------------------------------------------------|---------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [2022 February 12](../release-v251.html)         | v2.5.1  | [volk-2.5.1.tar.gz](../releases/volk-2.5.1.tar.gz) \(f92bd5381269d3d13c47eaccf1379bcb\)   | [2.5.1.sha256.sig](../releases/2.5.1.sha256.sig)/[volk-2.5.1.tar.gz.asc](../releases/volk-2.5.1.tar.gz.asc)
 | [2021 June 5](../release-v250.html)         | v2.5.0  | [volk-2.5.0.tar.gz](../releases/volk-2.5.0.tar.gz) \(0905b7487bf26e8aac500f1bb7a85193\)   | [2.5.0.sha256.sig](../releases/2.5.0.sha256.sig)/[volk-2.5.0.tar.gz.asc](../releases/volk-2.5.0.tar.gz.asc)
 | [2020 December 17](../release-v241.html)         | v2.4.1  | [volk-2.4.1.tar.gz](../releases/volk-2.4.1.tar.gz) \(18d9e8101eb56f0180d23a1c23a384fe\)   | [2.4.1.sha256.sig](../releases/2.4.1.sha256.sig)/[volk-2.4.1.tar.gz.asc](../releases/volk-2.4.1.tar.gz.asc)
 | [2020 November 22](../release-v240.html)         | v2.4.0  | [volk-2.4.0.tar.gz](../releases/volk-2.4.0.tar.gz) \(834a9a94538727213e449dee2d7e8d63\)   | [2.4.0.sha256.sig](../releases/2.4.0.sha256.sig)
