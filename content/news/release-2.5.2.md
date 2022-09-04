@@ -1,6 +1,6 @@
 title: Release v2.5.1
 author: Johannes Demel
-date: 02-12-2022
+date: 12-02-2022
 summary: VOLK release v2.5.1
 
 Hi everyone!
