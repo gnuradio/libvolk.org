@@ -1,97 +1,43 @@
-title: Release v2.5.1
+title: Release v2.5.2
 author: Johannes Demel
-date: 12-02-2022
-summary: VOLK release v2.5.1
+date: 09-04-2022
+summary: VOLK release v2.5.2
 
 Hi everyone!
 
-We have a new VOLK release! We are happy to announce VOLK v2.5.1! We want to thank all contributors. This release wouldn't have been possible without them.
+We have a new VOLK release! We are happy to announce VOLK v2.5.2! We want to thank all contributors. This release wouldn't have been possible without them.
 
-The list of contributors is pretty long this time due to a lot of support to relicense VOLK under LGPL. Currently, we are "almost there" but need a few more approvals, please support us. We thank everyone for their support in this effort.
+We are happy to announce that our re-licensing effort is complete. This has been a long and challenging journey. Being technical: There are 3 people left (out of 74) who we haven't been able to get in contact with (at all), for a total of 4 (out of 1092) commits, 13 (of 282822) additions, and 7 (of 170421) deletions. We have reviewed these commits and all are simple changes (e.g., 1 line change) and most are no longer relevant (e.g., to a file that no longer exists). VOLK maintainers are in agreement that the combination -- small numbers of changes per committer, simple changes per commit, commits no longer relevant -- means that we can proceed with re-licensing without the approval of the folks. We will try reaching out periodically to these folks, but we believe it unlikely we will get a reply.
 
-We use `cpu_features` for a while now. This maintainance release should make it easier for package maintainers, FreeBSD users, and M1 users to use VOLK. Package maintainers should be able to use an external `cpu_features` module. For everyone else, `cpu_features` received support for M1 and FreeBSD.
-
-You can find [VOLK on Zenodo DOI: 10.5281/zenodo.3360942](https://doi.org/10.5281/zenodo.3360942).
-We started to actively support Zenodo now via a `.zenodo.json` file. This might come in handy for people who use VOLK in publications. As a contributor, if you want more information about yourself added to VOLK, feel free to add your ORCiD and affiliation.
-
-In the past, we relied on Boost for several tasks in `volk_profile`. For years, we minimized Boost usage to `boost::filesystem`. We mostly switched to C++17 `std::filesystem` years ago. The last distribution in our CI system that required Boost to build VOLK, was Ubuntu 14.04. Thus, now is the time to remove the Boost dependency completely and rely on C++17 features.
-
-Some VOLK kernels are untested for years. We decided to deprecate these kernels but assume that nobody uses them anyways. If your compiler spits out a warning that you use a deprecated kernel, get in touch. Besides, we received fixes for various kernels. Especially FEC kernels are notoriously difficult to debug because issues often pop up as performance regressions.
-
-Finally, we saw a lot of housekeeping in different areas. Scripts to support us in our LGPL relicensing effort, updated docs, and updated our code of conduct. We could remove some double entries in our QA system and fixed a `volk_malloc` bug that ASAN reported.
-Finally, we switched to the Python `sysconfig` module in our build system to ensure Python 3.12+ does not break our builds.
-
-
+This maintainance release is intended to be the last VOLK 2.x release. After we completed our re-licensing effort, we want to make a VOLK 3.0 release soon. VOLK 3.0 will be fully compatible with VOLK 2.x on a technical level. However, VOLK 3+ will be released under LGPL. We are convinced a license change justifies a major release.
 
 ### Contributors
 
-* A. Maitland Bottoms <bottoms@debian.org>
 * Aang23 <qwerty15@gmx.fr>
-* AlexandreRouma <alexandre.rouma@gmail.com>
-* Andrej Rode <mail@andrejro.de>
-* Ben Hilburn <ben@hilburn.dev>
-* Bernhard M. Wiedemann <bwiedemann@suse.de>
-* Brennan Ashton <bashton@brennanashton.com>
-* Carles Fernandez <carles.fernandez@gmail.com>
 * Clayton Smith <argilo@gmail.com>
-* Doug <douggeiger@users.noreply.github.com>
-* Douglas Anderson <djanderson@users.noreply.github.com>
-* Florian Ritterhoff <ritterho@hm.edu>
-* Jaroslav Škarvada <jskarvad@redhat.com>
-* Johannes Demel <demel@uni-bremen.de>
-* Josh Blum <josh@joshknows.com>
-* Kyle A Logue <kyle.a.logue@aero.org>
-* Luigi Cruz <luigifcruz@gmail.com>
-* Magnus Lundmark <magnus@skysense.io>
-* Marc L <marcll@vt.edu>
-* Marcus Müller <marcus@hostalia.de>
-* Martin Kaesberger <git@skipfish.de>
+* Johannes Demel <demel@ant.uni-bremen.de>, <demel@uni-bremen.de>
 * Michael Dickens <michael.dickens@ettus.com>
-* Nathan West <nwest@deepsig.io>
-* Paul Cercueil <paul.cercueil@analog.com>
-* Philip Balister <philip@balister.org>
-* Ron Economos <w6rz@comcast.net>
-* Ryan Volz <ryan.volz@gmail.com>
-* Sylvain Munaut <tnt@246tNt.com>
-* Takehiro Sekine <takehiro.sekine@ps23.jp>
-* Vanya Sergeev <vsergeev@gmail.com>
-* Vasil Velichkov <vvvelichkov@gmail.com>
-* Zlika <zlika_ese@hotmail.com>
-* namccart <namccart@gmail.com>
-* dernasherbrezon <rodionovamp@mail.ru>
-* rear1019 <rear1019@posteo.de>
-
+* Michael Roe <michael-roe@users.noreply.github.com>
 
 ### Changes
 
-* Kernels
-    - Fixup underperforming GENERIC kernel for volk_8u_x4_conv_k7_r2_8u
-    - volk_32fc_x2_conjugate_dot_prod_32fc: New generic implementation
-    - Add volk_32f(c)_index_min_16/32u
-    - Fix volk_32fc_index_min_32u_neon
-    - Fix volk_32fc_index_min_32u_neon
-
-* Misc
-    - Fix volk_malloc alignment bug
-    - qa: Remove repeating tests
-    - python: Switch to sysconfig module
-    - deprecate: Add attribute deprecated
-    - deprecate: Exclude warnings on Windows
-    - docs: Update docs
-    - Add the list of contributors agreeing to LGPL licensing
-    - Add a script to count the lines that are pending resubmission
-    - Testing: Add test for LGPL licensing
-    - Update CODE_OF_CONDUCT file
-
-* Boost
-    - boost: Remove boost dependency
-    - c++: Require C++17 for std::filesystem
-
+* Android
+    - Add Android CI
+    - Fix armeabi-v7a on Android
+* CI
+    - Update all test jobs to more recent actions
+* volk_8u_x4_conv_k7_r2_8u
+    - Add NEON implementation `neonspiral` via `sse2neon.h`
+* Fixes
+    - Fix out-of-bounds reads
+    - Fix broken neon kernels
+    - Fix float to int conversion
+* CMake
+    - Suppress superfluous warning
+    - Fix Python install path calculation and documentation
 * cpu_features
-      cpu_features: Update submodule pointer
-      cpu_features: Make cpu_features submodule optional
-
-* Zenodo
-      zenodo: Add metadata file
-      zenodo: Re-organize .zenodo.json
-
+    - Update submodule pointer
+* VOLK 3.0 release preparations
+    - Use SPDX license identifiers everywhere
+    - Re-arrange files in top-level folder
+    - Update Doxygen and all Doxygen related tasks into `docs`
