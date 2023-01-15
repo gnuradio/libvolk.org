@@ -7,7 +7,7 @@ Hi everyone!
 
 This is the VOLK v3.0.0 major release! This release marks the conclusion of a long lasting effort to complete [GREP 23](https://github.com/gnuradio/greps/blob/main/grep-0023-relicense-volk.md) that proposes to change the VOLK license to LGPLv3+. We would like to thank all VOLK contributors that they allowed this re-licensing effort to complete. This release wouldn't have been possible without them.
 
-For VOLK users it is important to not that the VOLK API does NOT change in this major release. After a series of discussion we are convinced a license change justifies a major release. Thus, you may switch to VOLK 3 and enjoy the additional freedom the LGPL offers.
+For VOLK users it is important to note that the VOLK API does NOT change in this major release. After a series of discussion we are convinced a license change justifies a major release. Thus, you may switch to VOLK 3 and enjoy the additional freedom the LGPL offers.
 
 ### Motivation for the switch to LGPLv3+
 
