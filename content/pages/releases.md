@@ -3,6 +3,7 @@ save_as: releases.html
 
 | Date                                             | Version | archive (md5sum)                                                                          | detached signatures                                          |
 |--------------------------------------------------|---------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [2025 February 3](../release-v320.html)          | v3.2.0  | [volk-3.2.0.tar.gz](../releases/volk-3.2.0.tar.gz) \(4db61c2c7c846f673c62cbb44d28ace2\)   | [3.2.0.sha256.sig](../releases/3.2.0.sha256.sig)/[volk-3.2.0.tar.gz.asc](../releases/volk-3.2.0.tar.gz.asc)
 | [2024 February 25](../release-v312.html)         | v3.1.2  | [volk-3.1.2.tar.gz](../releases/volk-3.1.2.tar.gz) \(1a4d0bd4ece15b63ae301c03c41ef99a\)   | [3.1.2.sha256.sig](../releases/3.1.2.sha256.sig)/[volk-3.1.2.tar.gz.asc](../releases/volk-3.1.2.tar.gz.asc)
 | [2024 January 29](../release-v311.html)          | v3.1.1  | [volk-3.1.1.tar.gz](../releases/volk-3.1.1.tar.gz) \(718584969170dfa7cf920b81deda3f09\)   | [3.1.1.sha256.sig](../releases/3.1.1.sha256.sig)/[volk-3.1.1.tar.gz.asc](../releases/volk-3.1.1.tar.gz.asc)
 | [2023 December 5](../release-v310.html)          | v3.1.0  | [volk-3.1.0.tar.gz](../releases/volk-3.1.0.tar.gz) \(f900746051e05e432b93d0cd89a2de0b\)   | [3.1.0.sha256.sig](../releases/3.1.0.sha256.sig)/[volk-3.1.0.tar.gz.asc](../releases/volk-3.1.0.tar.gz.asc)
